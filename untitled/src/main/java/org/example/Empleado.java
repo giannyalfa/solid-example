@@ -1,5 +1,10 @@
 package org.example;
 
+/*
+* Infracción Single Responsibility Principle (Responsabilidad Única):
+* La clase Empleado tiene múltiples responsabilidades: calcular el pago, guardar en la base de datos y generar reportes.
+* */
+
 public class Empleado {
 
     private String nombre;
